@@ -68,10 +68,10 @@ class BlockAdvertising extends Module
 		if (!file_exists(_PS_MODULE_DIR_.$this->name.'/'.$this->adv_imgname.'.'.Configuration::get('BLOCKADVERT_IMG_EXT')))
 		{
 			$this->adv_imgname = 'advertising';
-			if (!file_exists(_PS_MODULE_DIR_.$this->name.'/advertising.jpg'))
+			if (!file_exists(_PS_MODULE_DIR_.$this->name.'/advertising.png'))
 				$this->adv_imgname = '';
 			else
-				Configuration::updateValue('BLOCKADVERT_IMG_EXT','jpg');
+				Configuration::updateValue('BLOCKADVERT_IMG_EXT','png');
 		}
 
 		if (!empty($this->adv_imgname))
