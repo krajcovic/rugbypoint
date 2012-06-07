@@ -6,6 +6,7 @@
 !modules/
 !themes/
 !override/
+!bob/
 
 # Ignore everthing in the "plugins" directory, except the plugins you
 # specify (see the commented-out examples for hints on how to do this.)
