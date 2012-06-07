@@ -1,2 +1,22 @@
-admin/*
+#Ignroe ds_store
+*.DS_Store
+
+# Ignore everything in the root except modules, themes and override.
+/*
+!modules/
+!themes/
+!override/
+
+# Ignore everthing in the "plugins" directory, except the plugins you
+# specify (see the commented-out examples for hints on how to do this.)
+
+#modules/*
+#!modules/my-directory-plugin/
+
+# Ignore everything in the "themes" directory, except th themes you
+# specify (see the commented-out example for a hint on how to do this.)
+
+#themes/*
+#!themes/my-theme/
+
 .merge_file_waGsBM
