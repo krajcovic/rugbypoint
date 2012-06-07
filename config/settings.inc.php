@@ -13,8 +13,8 @@ define('_MEDIA_SERVER_1_', '');
 define('_MEDIA_SERVER_2_', '');
 define('_MEDIA_SERVER_3_', '');
 define('_THEME_NAME_', 'prestashop');
-define('_COOKIE_KEY_', 'hBPPYD7b13NtUiHEnL882qQIrC4Xt9rNN6mdPDNK60JFGXFqEaURDizx');
-define('_COOKIE_IV_', 'Yc8qdKT9');
+define('_COOKIE_KEY_', 'tnPXfCmGhuvQJixmavWijMBNOPibyc2ffieL5qwoxXDDIrkD31t0O7n2');
+define('_COOKIE_IV_', 'UhRnLPTV');
 define('_PS_CREATION_DATE_', '2012-06-07');
 define('_PS_VERSION_', '1.4.8.2');
 ?>
