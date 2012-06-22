@@ -13,9 +13,9 @@
 	margin: 0
 }
 body {
-	background: url('../img/plocha2.gif')  no-repeat top center black;
+	background-color: white;
 	font-size: 11px;
-	font-family: Calibri;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
 	color: #5d717e;
 	text-align: center
 }
@@ -30,7 +30,7 @@ body {
 .wrap { white-space: normal }
 .bold { font-weight: bold }
 .strike { text-decoration: line-through }
-.italic { font-style: Calibri }
+.italic { font-style: italic }
 .top { vertical-align: top }
 .span_link { cursor: pointer }
 .span_link:hover { text-decoration: underline }
@@ -124,7 +124,7 @@ ul.idTabs li {
 	text-align: center;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: none;
+	font-weight: bold;
 	padding-top: 3px;
 	color: #374853
 }
@@ -140,7 +140,7 @@ ul.idTabs li {
 }
 .idTabsShort .selected {
 	background-image: url('../img/tab_bg_selected_short.jpg');
-	color: black
+	color: white
 }
 div.sheets {
 	clear: both;
@@ -170,7 +170,7 @@ h1 {
 	padding-left: 0.5em;
 	margin: 0.5em 0;
 	text-transform: uppercase;
-	font-weight: none;
+	font-weight: bold;
 	color: #374853;
 	background: transparent url('../img/title_bg.png') no-repeat top left;
 	height: 21px
@@ -189,7 +189,7 @@ h2 {
 	padding-left: 0.5em;
 	margin: 0.5em 0;
 	text-transform: uppercase;
-	font-weight: none;
+	font-weight: bold;
 	color: #374853;
 	background: transparent url('../img/title_bg.png') no-repeat top left;
 	height: 21px
@@ -220,13 +220,13 @@ img.logo {
 	float: left;
 	margin-top: 0.5em;
 	font-size: 2em;
-	font-weight: none
+	font-weight: bold
 }
 #header_right {
 	float: left;
 	margin-bottom: 15px;
 	width: 73%;
-	text-align: right 
+	text-align: right
 }
 #left_column, #center_column, #right_column { float: left }
 #left_column {
@@ -290,7 +290,7 @@ body.mceContentBody {
 .rte h1,
  .mceContentBody h1 {
 	font-size: 25px;
-	font-weight: none;
+	font-weight: bold;
 	background: inherit
 }
 .rte h2,
@@ -367,7 +367,7 @@ table.std {
 	background-repeat: no-repeat;
 	height: 24px;
 	color: #374853;
-	font-weight: none;
+	font-weight: bold;
 	text-align: left;
 	white-space: nowrap
 }
@@ -423,7 +423,7 @@ form.std p span.like_input {
 input, textarea, select, span.editable {
 	margin-left: 0.7em;
 	font-size: 12px;
-	font-family: Calibri, Calibri, Calibri, Calibri;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
 	outline: none
 }
 input, textarea, select { border: 1px solid #bdc2c9 }
@@ -470,7 +470,7 @@ span.exclusive_mini, span.exclusive_small, span.exclusive, span.exclusive_large,
 	background-position: top left;
 	border: none;
 	color: black!important;
-	font-weight: none;
+	font-weight: bold;
 	font-size: 10px!important;
 	text-align: center;
 	text-decoration: none!important;
@@ -583,7 +583,7 @@ img.icon { margin-right: 0.5em; vertical-align: middle }
 .price, .price-shipping, .price-wrapping {
 	color: #da0f00;
 	font-size: 1.1em;
-	font-weight: none;
+	font-weight: bold;
 	white-space: nowrap
 }
 
@@ -594,7 +594,7 @@ img.icon { margin-right: 0.5em; vertical-align: middle }
 	margin: 0.3em auto 1.5em auto;
 	padding: 0.3em 0.8em 1em
 }
-.error p { font-weight: none }
+.error p { font-weight: bold }
 .error li {
 	list-style-position: inside;
 	list-style-type: decimal-leading-zero;
@@ -607,25 +607,25 @@ img.icon { margin-right: 0.5em; vertical-align: middle }
 	font-size: 1.2em;
 	background-color: #F8E1A0;
 	border: 1px dashed #F9E400;
-	font-weight: none;
+	font-weight: bold;
 	margin: 0.2em 2em;
 	padding: 0.6em 1em
 }
 .warning_inline {
 	color: #da0f00;
-	font-weight: none
+	font-weight: bold
 }
 
 /* success */
 .success {
 	color: green;
-	font-weight: none;
+	font-weight: bold;
 	margin: 0.2em 1em;
 	padding: 0.3em 0.8em 1em
 }
 .success_inline {
 	color: green;
-	font-weight: none
+	font-weight: bold
 }
 
 /* breadcrumb.tpl */
@@ -652,7 +652,7 @@ ul.pagination li {
 	margin-right: 0.3em
 }
 ul.pagination li, ul.pagination a, ul.pagination span {
-	font-weight: none;
+	font-weight: bold;
 	color: #374853
 }
 ul.pagination a, ul.pagination span {
@@ -727,7 +727,7 @@ ul.step li {
 }
 ul.step li.step_current {
 	background: transparent url('../img/step_current.gif') no-repeat bottom left;
-	font-weight: none
+	font-weight: bold
 }
 ul.step li.step_todo { font-style: italic }
 ul.step li#step_end { width: 40px }
@@ -775,9 +775,9 @@ div.block {
 	background: transparent url('../img/block_footer.png') no-repeat bottom left
 }
 div.block h4 {
-	text-transform: none;
-	font-family: Calibri, Calibri, Calibri;
-	font-weight: none;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-weight: bold;
 	font-size: 1.2em;
 	padding-left: 0.5em;
 	border-bottom: 1px solid #595A5E;
@@ -854,7 +854,7 @@ div.exclusive .block_content {
 	font-size: 0.9em
 }
 .products_block li p a {
-	font-weight: none;
+	font-weight: bold;
 	font-size: 0.8em
 }
 .products_block dl {
@@ -1001,7 +1001,7 @@ p.address_navigation input[type=submit].button { float: right }
 	height: 24px;
 	line-height: 24px;
 	color: #374853;
-	font-weight: none
+	font-weight: bold
 }
 .cart_last_product_img { float:left }
 .cart_last_product_img img {
@@ -1095,7 +1095,7 @@ tr.cart_total_price { font-weight: bold }
 }
 #order form#voucher fieldset #display_cart_vouchers .voucher_name {
 	color:#DD2A81;
-	font-weight:none;
+	font-weight:bold;
 	cursor:pointer;
 }
 #order form#voucher h4,
@@ -1146,7 +1146,7 @@ tr.cart_total_price { font-weight: bold }
 }
 #order-opc form#voucher fieldset #display_cart_vouchers .voucher_name {
 	color:#DD2A81;
-	font-weight:none;
+	font-weight:bold;
 	cursor:pointer;
 }
 #order-opc form#voucher h4,
@@ -1415,7 +1415,7 @@ div#mywishlist div#block-order-detail ul li span.wishlist_product_detail { margi
 }
 #view_wishlist #featured-products_block_center ul div li.address_name input.text {
 	color: #999;
-	font-weight: none;
+	font-weight: bold;
 	font-size: 11px;
 	border: 0
 }
@@ -1476,7 +1476,7 @@ div.star_hover a, div.star a:hover { background-position: 0 -32px }
 }
 .confirmation { 
 	color: #808000; 
-	font-weight: none 
+	font-weight: bold 
 }
 #page .rte { background: transparent none repeat scroll 0 0 }
 
